@@ -1,0 +1,15 @@
+
+- title: Email
+  desc: "Email me"
+  icon: fa-envelope-o
+  url: mailto:pass2pawan@gmail.com
+
+- title: GitHub
+  desc: "GitHub"
+  icon: fa-github-alt
+  url: https://github.com/Shashi456
+
+- title: Twitter
+  desc: "Twitter"
+  icon: fa-twitter-alt
+  url: https://twitter.com/@paws_ed
