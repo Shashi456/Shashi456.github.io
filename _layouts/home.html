@@ -33,7 +33,7 @@ layout: homelayout
     A web blog of Paws
 
 </title>
-<link rel="canonical" href="http://localhost:4000/">
+<link rel="canonical" href="#">
 
 
 <style media="screen">
@@ -1015,13 +1015,13 @@ margin-left: -4%;
     <div class="container">
 
         <div class="content navi-separator">
-            <a href="http://localhost:4000/"><div class="name"><h1><em>A web blog of Paws</em></h1></div></a>
+            <a href="{{ "/" | prepend: site.baseurl }}"><div class="name"><h1><em>A web blog of Paws</em></h1></div></a>
             <nav>
                 <ul>
-              <li><a href="http://localhost:4000/about/">Me </a></li><div margin: 0 auto>|</div>
-              <li><a href="http://localhost:4000/musings">My musings </a></li><div margin: 0 auto>|</div>
-              <li><a href="http://localhost:4000/DL/">Deep Learning </a></li><div margin: 0 auto>|</div>
-              <li><a href="http://localhost:4000/Moneymatters/">Money Matters</a></li>
+              <li><a href="{{ "/about/" | prepend: site.baseurl }}">Me </a></li><div margin: 0 auto>|</div>
+              <li><a href="{{ "/musings" | prepend: site.baseurl }}"">My musings </a></li><div margin: 0 auto>|</div>
+              <li><a href="{{ "/DL" | prepend: site.baseurl }}">Deep Learning </a></li><div margin: 0 auto>|</div>
+              <li><a href="{{ "/Moneymatters" | prepend: site.baseurl }}">Money Matters</a></li>
 
 
                 </ul>
