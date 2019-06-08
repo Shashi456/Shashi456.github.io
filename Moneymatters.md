@@ -7,7 +7,7 @@ Money matters, i don't mean it in the money is important sense but more like dif
 <br class='brex'>
 
 <h2>Valuation</h2>
-One skill I've always wanted to pick up on has been Valuation. Now this could be the valuation of businesses, cryptocurrencies, assets or going a little bit far fetched, people. This year in 2019, I've decided to take the Valuation course by [Aswath Damodaran](http://people.stern.nyu.edu/adamodar/). He offers the same course to both Undergrads and MBA students, I don't think I will find better resources for the same. I aim to write notes for the class under this tab, also trying to do assignments and other challenges given in the class.
+One skill I've always wanted to pick up on has been Valuation. Now this could be the valuation of businesses, cryptocurrencies, assets or going a little bit far fetched, people. This year in 2019, I've decided to take the Valuation course by [Aswath Damodaran][1]. He offers the same course to both Undergrads and MBA students, I don't think I will find better resources for the same. I aim to write notes for the class under this tab, also trying to do assignments and other challenges given in the class.
 
 
 <section class="c-archives">
@@ -29,7 +29,8 @@ One skill I've always wanted to pick up on has been Valuation. Now this could be
 {% endfor %}
 
 <h2>Microeconomics</h2>
-I've always been interested in Microeconomics, it actually pops up everywhere in the modern world. One thing I think microeconomics teaches you is to think about problems within a framework while being wary about various variable and tradeoffs involved thereon. My first stop this year will be the course, MIT 14.01SC Principles of Microeconomics. One thing I aim to achieve by pursuing this course, is also observe how i learn and if MIT courses can be the first stop in Syllabus 2.0. [Read [this](https://danigrant.github.io/syllabus/) for more on syllabus 2.0, Thanks a lot to Dani Grant for the idea.]
+I've always been interested in Microeconomics, it actually pops up everywhere in the modern world. One thing I think microeconomics teaches you is to think about problems within a framework while being wary about various variable and tradeoffs involved thereon. My first stop this year will be the course, MIT 14.01SC Principles of Microeconomics. One thing I aim to achieve by pursuing this course, is also observe how i learn and if MIT courses can be the first stop in Syllabus 2.0.
+[ Read [this][2] for more on syllabus 2.0, Thanks a lot to Dani Grant for the idea.]
 
 
 <section class="c-archives">
@@ -49,3 +50,6 @@ I've always been interested in Microeconomics, it actually pops up everywhere in
   </ul>
   {% else %}
 {% endfor %}
+
+[1]: http://people.stern.nyu.edu/adamodar/
+[2]: https://danigrant.github.io/syllabus/

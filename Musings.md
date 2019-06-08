@@ -25,8 +25,7 @@ My thoughts and ideas, I sporadically sometimes muse about things depending on m
   {% else %}
 {% endfor %}
 
-
-***
+.......
 
 <br class= 'brex'>
 <section class="c-archives">
