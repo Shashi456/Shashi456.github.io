@@ -5,6 +5,29 @@ permalink: /musings/
 ---
 My thoughts and ideas, I sporadically sometimes muse about things depending on my mood or just some random epiphanies i have throughout the day. These thoughts are purely my own and i'd love to talk about them.
 
+***
+
+<section class="c-archives">
+  <link rel="shortcut icon" href="">
+  {% for post in site.tags.rfs  %}
+  <ul class="c-archives__list">
+
+    <li class="c-archives__item">
+      <h3>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
+        <br>
+        <small><p>{{post.description}}</p></small>
+      </h3>
+      <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+    </li>
+
+  </ul>
+  {% else %}
+{% endfor %}
+
+
+***
+
 <br class= 'brex'>
 <section class="c-archives">
   <link rel="shortcut icon" href="">
@@ -40,7 +63,7 @@ My thoughts and ideas, I sporadically sometimes muse about things depending on m
   {% for post in site.tags.ideas  %}
 
   <ul class="c-archives__list">
-    
+
     <li class="c-archives__item">
       <h3>
         <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>

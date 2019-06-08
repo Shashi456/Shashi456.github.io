@@ -27,3 +27,25 @@ One skill I've always wanted to pick up on has been Valuation. Now this could be
   </ul>
   {% else %}
 {% endfor %}
+
+<h2>Microeconomics</h2>
+I've always been interested in Microeconomics, it actually pops up everywhere in the modern world. One thing I think microeconomics teaches you is to think about problems within a framework while being wary about various variable and tradeoffs involved thereon. My first stop this year will be the course, MIT 14.01SC Principles of Microeconomics. One thing I aim to achieve by pursuing this course, is also observe how i learn and if MIT courses can be the first stop in Syllabus 2.0. [Read [this](https://danigrant.github.io/syllabus/) for more on syllabus 2.0, Thanks a lot to Dani Grant for the idea.]
+
+
+<section class="c-archives">
+  <link rel="shortcut icon" href="">
+  {% for post in site.tags.me  %}
+  <ul class="c-archives__list">
+
+    <li class="c-archives__item">
+      <h3>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
+        <br>
+        <small><p>{{post.description}}</p></small>
+      </h3>
+      <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+    </li>
+
+  </ul>
+  {% else %}
+{% endfor %}
