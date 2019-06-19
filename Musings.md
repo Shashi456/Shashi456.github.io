@@ -48,13 +48,46 @@ My thoughts and ideas, I sporadically sometimes muse about things depending on m
   {% else %}
   {% if this_year != next_year %}
 </ul>
+</section>
 <h2 class="c-archives__year" id="{{ next_year }}-ref">{{next_year}}</h2>
 <ul class="c-archives__list">
   {% endif %}
   {% endif %}
   {% endfor %}
 
-<h2>Ideas</h2>
+  <br class= 'brex'>
+  <section class="c-archives">
+    <link rel="shortcut icon" href="">
+    {% for post in site.tags.ideas  %}
+    <!-- {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+    {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %} -->
+    {% if forloop.first %}
+    <!-- <h2 class="c-archives__year" id="{{ this_year }}-ref">{{this_year}}</h2> -->
+    <h2>Ideas</h2>
+    <ul class="c-archives__list">
+      {% endif %}
+      <li class="c-archives__item">
+        <h3>
+          <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
+          <br>
+          <small><p>{{post.description}}</p></small>
+        </h3>
+        <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+      </li>
+      {% if forloop.last %}
+    </ul>
+    {% else %}
+    {% if this_year != next_year %}
+  </ul>
+  </section>
+  <h2 class="c-archives__year" id="{{ next_year }}-ref">{{next_year}}</h2>
+  <ul class="c-archives__list">
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+
+<!-- <h2>Ideas</h2>
+<section class="c-archives">
   <link rel="shortcut icon" href="">
   {% for post in site.tags.ideas  %}
 
@@ -73,8 +106,7 @@ My thoughts and ideas, I sporadically sometimes muse about things depending on m
   {% else %}
   {% if this_year != next_year %}
 </ul>
-<h2 class="c-archives__year" id="{{ next_year }}-ref">{{next_year}}</h2>
-<ul class="c-archives__list">
   {% endif %}
   {% endif %}
-  {% endfor %}
+
+  {% endfor %} -->
