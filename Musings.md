@@ -5,10 +5,9 @@ permalink: /musings/
 ---
 My thoughts and ideas, I sporadically sometimes muse about things depending on my mood or just some random epiphanies i have throughout the day. These thoughts are purely my own and i'd love to talk about them.
 
-***
 
-<section class="c-archives">
-  <link rel="shortcut icon" href="">
+
+<link rel="shortcut icon" href="">
   {% for post in site.tags.rfs  %}
   <ul class="c-archives__list">
 
@@ -24,8 +23,6 @@ My thoughts and ideas, I sporadically sometimes muse about things depending on m
   </ul>
   {% else %}
 {% endfor %}
-
-.......
 
 <br class= 'brex'>
 <section class="c-archives">
@@ -81,5 +78,3 @@ My thoughts and ideas, I sporadically sometimes muse about things depending on m
   {% endif %}
   {% endif %}
   {% endfor %}
-
-</section>
