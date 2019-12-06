@@ -24,6 +24,7 @@ ping me @ [paws_ed](https://twitter.com/paws_ed) or my [email](mailto:pawansasan
   - Actively Contributing to the Swift for Tensorflow project (A nascent deep learning library).
   - Bugging people i know and learning about the interesting stuff they are pursuing. 
   - Trying to build things(very unsuccessfully though) and blogging on here. 
+  - I've been learning applied category theory, and its very interesting, you can take a look at my notes [here](https://github.com/Shashi456/Projects-and-courses/blob/master/Applied_Category_Theory.pdf).
   - Finally, looking for job opportunities/ project collaborations, remote or in-person.
   
 
