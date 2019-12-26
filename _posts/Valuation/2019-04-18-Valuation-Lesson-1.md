@@ -50,4 +50,4 @@ not considered in this case is Disney plus and that the rest of the movies are p
 - Always consider taxes and margin when thinking about final revenue.
 
 
-# Weekly Newsletter
+<!-- # Weekly Newsletter -->
