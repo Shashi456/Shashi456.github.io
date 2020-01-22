@@ -65,7 +65,7 @@ minima:
 header_pages:
  - about.md
  - Musings.md
- - Moneymatters.md
+ - Miscellaneous.md
  - deeplearning.md
 
 # Build settings
