@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Moneymatters
+category: Miscellaneous
 tags: valuation
 ---
 # Lesson 1 Notes

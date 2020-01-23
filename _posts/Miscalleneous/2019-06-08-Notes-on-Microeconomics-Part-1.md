@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Moneymatters
+category: Miscellaneous
 tags: me
 ---
 ## Notes of Microeconomics
