@@ -39,3 +39,41 @@ int main()
 }
 ```
 While practically when you try to run this program, the program would crash due to memory issues, given infinite storage this would just make the compiler hang. The compiler would be unable to decide the "halt-ness" of this program and since that would be undecidable you could call the language turing complete.
+
+
+
+## The proof of halting problem being undecidable - Proof by Contradiction
+Consider the existence of a machine `P` which can decide if a program halts or not. When the input and the program, `(f,i)` is inputted into the program `P`, it can mention if its halts or not. 
+Consider another program `X` which takes some program `g` as some input, The pseudo-code for this is as follows:
+```c++
+void P(program f, input i){
+  if (...){
+    return halts
+  }
+  else {
+    return doesn't halt
+  }
+}
+
+void X(g){
+  if(P(g, g) == halts) {
+    loop forever;
+    }
+  else {
+    return;
+  }
+}
+```
+Although this program would work for most programs, lets consider the case of when the program `X` runs `X` itself.
+```c++
+X(X){
+  if(P(X,X) == halts){
+    loop forever;
+  }
+  else {
+    return;
+  }
+}
+```
+The issue here is, if the function P can successfully predict that the program `X` won't halt then, the program X(X) will never halt, then the program will run infinitely long and it has failed to do what it was tasked for. and if the program does say that this program will successfully halt, then due to condition, the if struct will trigger and it will loop forever. Since, for both cases, it turns out that it can't successfully decide on the halting issue, the existence of such a machine `P` which decides on haltability is imposssible to have and hence the halting problem is undecidable.
+
