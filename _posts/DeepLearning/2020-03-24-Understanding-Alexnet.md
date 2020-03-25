@@ -1,7 +1,7 @@
 ---
 layout: post
 category: Deep Learning
-tag: research
+tag: DL
 description: A dive into Classification with the ImageNet Moment
 ---
 I've been recently been doing a paper reading of the original AlexNet and VGG paper. I've always been interested in Computer Vision given how supposedly interpretable Convolutional Models (Especially Classification ones) are. 
