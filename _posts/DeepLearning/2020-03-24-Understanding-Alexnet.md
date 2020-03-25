@@ -12,7 +12,7 @@ This is in retrospection also called the Imagenet Moment in CV, because after th
 
 ## Understanding Alexnet
 
-<img src='./images/Classification/alexnet.jpg'>
+<img src='/img/images/Classification/alexnet.jpg'>
 
 Alexnet was trained keeping in mind the need for models with the ability to learn over a variety of classes. It was trained on the ImageNet Dataset which contains 1.2 million images spanning a 1000 classes, the dataset is the standard dataset for CV now, All newer models are released with weights trained on imagenet(generally). The dataset also has 50000 validation images and 150,000 testing images. 
 
@@ -24,7 +24,8 @@ With Imagenet having variable-resolution images, it was downsampled to a fixed r
 
 Training details that were employed included using the relu activation function, Using multiple GPUs, Local Response Normalization, Overlapping pooling, data augmentation and dropout. The relu activation function was found to reach 25% error rate on CIFAR-10 6 times faster than tanh neurons. Multiple GPUs made it possible to train such a large network. 
 
-<img src='./images/Classification/lrn.jpg'>
+<img src='/img/images/Classification/lrn.jpg'>
+
 Local Response normalization was added to aid generalization given by the above equation, where k, n, alpha and beta are hyperparameters, N is the total number of kernels in the layer. Overlapping pooling is employed instead of non-overlapping ones, A pooling layer can be thought of as summarizing a grid of pixel values to a singular values, when these grids are adjacent they are non-overlapping, and when some of these pixel values overlap, they are called overlapping. 
 
 Understanding the network itself, First a 224 * 224 * 3 image is convolved with 96 kernels of 11 * 11 * 3 with stride 4. The formula for calculating the output dimensions at the end of each convolution layer is given as follows:
@@ -37,4 +38,4 @@ Something to keep in mind at this point is that the kernels of the second, fourt
 
 Alexnet is trained with Stochastic gradient descent with a batch size of 128 examples, a momemtum of 0.9 and weight decay of 5e-4. The results are as follows.
 
-<img src='./images/Classification/alexnetresults.jpg'>
+<img src='/img/images/Classification/alexnetresults.jpg'>
