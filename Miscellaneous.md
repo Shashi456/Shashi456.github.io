@@ -44,14 +44,13 @@ While I research in deep learning, I've always been interested in learning more 
 {% endfor %}
 
 <h1> Economics and Finance</h1>
-<h2>Valuation</h2>
-One skill I've always wanted to pick up on has been Valuation. Now this could be the valuation of businesses, cryptocurrencies, assets or going a little bit far fetched, people. I've decided to learn through the Valuation course by
-<a href="http://people.stern.nyu.edu/adamodar/">Aswath Damodaran</a>. 
+<!-- <h2>Valuation</h2> -->
+
 
 
 <section class="c-archives">
   <link rel="shortcut icon" href="">
-  {% for post in site.tags.valuation  %}
+  {% for post in site.tags.ef  %}
   <ul class="c-archives__list">
 
     <li class="c-archives__item">
@@ -67,12 +66,12 @@ One skill I've always wanted to pick up on has been Valuation. Now this could be
   {% else %}
 {% endfor %}
 
-<h2>Microeconomics</h2>
-I've always been interested in Microeconomics, it actually pops up everywhere in the modern world. One thing I think microeconomics teaches you is to think about problems within a framework while being wary about various variable and tradeoffs involved thereon.
+<!-- <h2>Microeconomics</h2>
+
  <!-- My first stop this year will be the course, MIT 14.01SC Principles of Microeconomics. One thing I aim to achieve by pursuing this course, is also observe how i learn and if MIT courses can be the first stop in Syllabus 2.0.
 ( Read <a href="https://danigrant.github.io/syllabus/">this</a> for more on syllabus 2.0, Thanks a lot to Dani Grant for the idea.) -->
 
-  <link rel="shortcut icon" href="">
+  <!-- <link rel="shortcut icon" href="">
   {% for post in site.tags.me  %}
   <ul class="c-archives__list">
 
@@ -87,6 +86,6 @@ I've always been interested in Microeconomics, it actually pops up everywhere in
 
   </ul>
   {% else %}
-{% endfor %}
+{% endfor %}  -->
 
 </section>

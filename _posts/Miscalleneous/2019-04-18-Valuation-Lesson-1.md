@@ -1,8 +1,11 @@
 ---
 layout: post
 category: Miscellaneous
-tags: valuation
+tags: ef
 ---
+
+One skill I've always wanted to pick up on has been Valuation. Now this could be the valuation of businesses, cryptocurrencies, assets or going a little bit far fetched, people. I've decided to learn through the Valuation course by
+<a href="http://people.stern.nyu.edu/adamodar/">Aswath Damodaran</a>. (Taking a break - Updated 7th June 2021)
 # Lesson 1 Notes
 
 ## Lecture
