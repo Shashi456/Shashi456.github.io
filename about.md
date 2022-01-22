@@ -24,7 +24,7 @@ ping me @ [paws_ed](https://twitter.com/paws_ed) or my [email](mailto:pawansasan
   - Bugging people i know and learning about the interesting stuff they are pursuing. 
   - Trying to build things(very unsuccessfully though) and blogging on here. 
   - Trying to learn category theory, you can take a look at my notes [here](https://github.com/Shashi456/Projects-and-courses/blob/master/Applied_Category_Theory.pdf).
-  - I also write about the variety of books I read and you can find a list on my [goodreads](https://www.goodreads.com/user/show/18741614-pawan-sasanka). Although this might not be upto date, I do my best to keep it that way. I've decided to try reading a 100 books in 2022. 
+  - I also write about the variety of books I read and you can find a list on my [goodreads](https://www.goodreads.com/user/show/18741614-pawan-sasanka). Although this might not be upto date, I do my best to keep it that way. I've decided to try and read a 100 books in 2022. 
   
   
 
