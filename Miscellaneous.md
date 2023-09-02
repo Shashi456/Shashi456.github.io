@@ -87,15 +87,15 @@ While I research in deep learning, I've always been interested in learning more 
 {% endfor %}
 
   
- <h1> Crypto</h1>
+<!-- <h1> Crypto</h1> -->
 <!-- <h2>Valuation</h2> -->
 
 
 
-<section class="c-archives">
-  <link rel="shortcut icon" href="">
-  {% for post in site.tags.crypto  %}
-  <ul class="c-archives__list">
+<!--<section class="c-archives"> -->
+<!--   <link rel="shortcut icon" href=""> -->
+<!--   {% for post in site.tags.crypto  %} -->
+<!--   <ul class="c-archives__list"> -->
 
     <li class="c-archives__item">
       <h3>
@@ -106,9 +106,9 @@ While I research in deep learning, I've always been interested in learning more 
       <p>{{ post.date | date: "%b %-d, %Y" }}</p>
     </li>
 
-  </ul>
-  {% else %}
-{% endfor %}
+<!--  </ul>-->
+<!--   {% else %} -->
+<!-- {% endfor %} -->
 <!-- <h2>Microeconomics</h2>
 
  <!-- My first stop this year will be the course, MIT 14.01SC Principles of Microeconomics. One thing I aim to achieve by pursuing this course, is also observe how i learn and if MIT courses can be the first stop in Syllabus 2.0.
